@@ -1,0 +1,30 @@
+mkdir #创建dir
+cd [dirName]	#打开Linux cd（英文全拼：change directory）命令用于切换当前工作目录。
+				#其中 dirName 表示法可为绝对路径或相对路径。若目录名称省略，则变换至使用者的 home 目录 (也就是刚 login 时所在的目录)。
+pwd			#显示当前完整路径
+git init    #初始化一个Git repository
+
+/*****************************		
+git add readme.txt #git中加入文件
+git commit -m "备注" #git上面提交关于add上文件readme.txt的备注message	
+******************************/			
+
+
+/**************************************************
+…or create a new repository on the command line
+echo "# link" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Qmaratine/link.git
+git push -u origin main
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/Qmaratine/link.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+**************************************************/
